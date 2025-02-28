@@ -1,6 +1,6 @@
 # main.py
-from api import fetch_covid_data  # Importa desde api.py
-from ui import get_user_input, display_results  # Importa desde ui.py
+from api.api import fetch_covid_data  # Importa desde api.py
+from ui.ui import get_user_input, display_results  # Importa desde ui.py
 
 def main():
     nombre_departamento, limite_registros = get_user_input()
